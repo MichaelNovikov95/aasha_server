@@ -8,7 +8,7 @@ const Products = [
     fandom: "Bungo Stray Dogs",
     category: "pins",
     price: 8,
-    image_src: "http://localhost:3002/images/Pins/pin_1.jpg",
+    image_src: "https://aasha-server.onrender.com/images/Pins/pin_1.jpg",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const Products = [
     fandom: "Bungo Stray Dogs",
     category: "pins",
     price: 8,
-    image_src: "http://localhost:3002/images/Pins/pin_2.jpg",
+    image_src: "https://aasha-server.onrender.com/images/Pins/pin_2.jpg",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const Products = [
     fandom: "Love Live! School Idol Project",
     category: "pins",
     price: 8,
-    image_src: "http://localhost:3002/images/Pins/pin_3.jpg",
+    image_src: "https://aasha-server.onrender.com/images/Pins/pin_3.jpg",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const Products = [
     fandom: "Bungo Stray Dogs",
     category: "pins",
     price: 8,
-    image_src: "http://localhost:3002/images/Pins/pin_4.jpg",
+    image_src: "https://aasha-server.onrender.com/images/Pins/pin_4.jpg",
   },
   {
     id: 5,
@@ -40,8 +40,11 @@ const Products = [
     fandom: "Honkai: Star Rail",
     category: "stickers",
     price: 4,
-    image_src: "http://localhost:3002/images/Stickers/purleye_girl.jpg",
-    more_images: ["http://localhost:3002/images/Stickers/pinkeye_girl_2.jpg"],
+    image_src:
+      "https://aasha-server.onrender.com/images/Stickers/purleye_girl.jpg",
+    more_images: [
+      "https://aasha-server.onrender.com/images/Stickers/pinkeye_girl_2.jpg",
+    ],
   },
   {
     id: 6,
@@ -50,9 +53,9 @@ const Products = [
     category: "stickers",
     price: 4,
     image_src:
-      "http://localhost:3002/images/Stickers/greenhead_boy_sticker.jpg",
+      "https://aasha-server.onrender.com/images/Stickers/greenhead_boy_sticker.jpg",
     more_images: [
-      "http://localhost:3002/images/Stickers/greenhead_boy_sitcker_2.jpg",
+      "https://aasha-server.onrender.com/images/Stickers/greenhead_boy_sitcker_2.jpg",
     ],
   },
   {
@@ -62,9 +65,9 @@ const Products = [
     category: "stickers",
     price: 4,
     image_src:
-      "http://localhost:3002/images/Stickers/whitehead_girl_sticker.jpg",
+      "https://aasha-server.onrender.com/images/Stickers/whitehead_girl_sticker.jpg",
     more_images: [
-      "http://localhost:3002/images/Stickers/whitehead_girl_sticker2.jpg",
+      "https://aasha-server.onrender.com/images/Stickers/whitehead_girl_sticker2.jpg",
     ],
   },
   {
@@ -74,8 +77,10 @@ const Products = [
     category: "stickers",
     price: 4,
     image_src:
-      "http://localhost:3002/images/Stickers/pinkhead_girl_sitcker.jpg",
-    more_images: ["http://localhost:3002/images/Stickers/pinkhead_girl_2.jpg"],
+      "https://aasha-server.onrender.com/images/Stickers/pinkhead_girl_sitcker.jpg",
+    more_images: [
+      "https://aasha-server.onrender.com/images/Stickers/pinkhead_girl_2.jpg",
+    ],
   },
   {
     id: 9,
@@ -83,9 +88,10 @@ const Products = [
     fandom: "Honkai: Star Rail",
     category: "stickers",
     price: 4,
-    image_src: "http://localhost:3002/images/Stickers/fingerboy_sticker.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Stickers/fingerboy_sticker.jpg",
     more_images: [
-      "http://localhost:3002/images/Stickers/fingerboy_sticker_2.jpg",
+      "https://aasha-server.onrender.com/images/Stickers/fingerboy_sticker_2.jpg",
     ],
   },
   {
@@ -94,10 +100,11 @@ const Products = [
     fandom: "Bungo Stray Dogs",
     category: "books",
     price: 45,
-    image_src: "http://localhost:3002/images/Books/anime_book_1.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Books/anime_book_1.jpg",
     more_images: [
-      "http://localhost:3002/images/Books/black_book.jpg",
-      "http://localhost:3002/images/Books/black_book_3.jpg",
+      "https://aasha-server.onrender.com/images/Books/black_book.jpg",
+      "https://aasha-server.onrender.com/images/Books/black_book_3.jpg",
     ],
   },
   {
@@ -106,10 +113,11 @@ const Products = [
     fandom: "Bungo Stray Dogs",
     category: "books",
     price: 45,
-    image_src: "http://localhost:3002/images/Books/anime_book_2.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Books/anime_book_2.jpg",
     more_images: [
-      "http://localhost:3002/images/Books/brown_book.jpg",
-      "http://localhost:3002/images/Books/brown_book_2.jpg",
+      "https://aasha-server.onrender.com/images/Books/brown_book.jpg",
+      "https://aasha-server.onrender.com/images/Books/brown_book_2.jpg",
     ],
   },
   {
@@ -118,10 +126,11 @@ const Products = [
     fandom: "Honkai: Star Rail",
     category: "books",
     price: 45,
-    image_src: "http://localhost:3002/images/Books/anime_book_2.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Books/anime_book_2.jpg",
     more_images: [
-      "http://localhost:3002/images/Books/purple_book_2.jpg",
-      "http://localhost:3002/images/Books/purple_book_1.jpg",
+      "https://aasha-server.onrender.com/images/Books/purple_book_2.jpg",
+      "https://aasha-server.onrender.com/images/Books/purple_book_1.jpg",
     ],
   },
   {
@@ -130,10 +139,11 @@ const Products = [
     fandom: "Honkai: Star Rail",
     category: "books",
     price: 45,
-    image_src: "http://localhost:3002/images/Books/anime_book_4.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Books/anime_book_4.jpg",
     more_images: [
-      "http://localhost:3002/images/Books/white_book_1.jpg",
-      "http://localhost:3002/images/Books/black_book_2.jpg",
+      "https://aasha-server.onrender.com/images/Books/white_book_1.jpg",
+      "https://aasha-server.onrender.com/images/Books/black_book_2.jpg",
     ],
   },
   {
@@ -143,10 +153,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    image_src: "http://localhost:3002/images/Prints/cardgirl_print_1.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Prints/cardgirl_print_1.jpg",
     more_images: [
-      "http://localhost:3002/images/Prints/cardgirl_print_2.jpg",
-      "http://localhost:3002/images/Prints/cardgirl_print_3.jpg",
+      "https://aasha-server.onrender.com/images/Prints/cardgirl_print_2.jpg",
+      "https://aasha-server.onrender.com/images/Prints/cardgirl_print_3.jpg",
     ],
   },
 
@@ -157,10 +168,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    image_src: "http://localhost:3002/images/Prints/pinkheadgirl_print_1.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Prints/pinkheadgirl_print_1.jpg",
     more_images: [
-      "http://localhost:3002/images/Prints/pinkheadgirl_print_2.jpg",
-      "http://localhost:3002/images/Prints/pinkheadgirl_print_3.jpg",
+      "https://aasha-server.onrender.com/images/Prints/pinkheadgirl_print_2.jpg",
+      "https://aasha-server.onrender.com/images/Prints/pinkheadgirl_print_3.jpg",
     ],
   },
 
@@ -171,10 +183,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    image_src: "http://localhost:3002/images/Prints/demonboy_print_1.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Prints/demonboy_print_1.jpg",
     more_images: [
-      "http://localhost:3002/images/Prints/demonboy_print_2.jpg",
-      "http://localhost:3002/images/Prints/demonboy_print_3.jpg",
+      "https://aasha-server.onrender.com/images/Prints/demonboy_print_2.jpg",
+      "https://aasha-server.onrender.com/images/Prints/demonboy_print_3.jpg",
     ],
   },
   {
@@ -184,10 +197,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    image_src: "http://localhost:3002/images/Prints/singirl_print_1.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Prints/singirl_print_1.jpg",
     more_images: [
-      "http://localhost:3002/images/Prints/singirl_print_2.jpg",
-      "http://localhost:3002/images/Prints/singirl_print_3.jpg",
+      "https://aasha-server.onrender.com/images/Prints/singirl_print_2.jpg",
+      "https://aasha-server.onrender.com/images/Prints/singirl_print_3.jpg",
     ],
   },
   {
@@ -197,10 +211,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    image_src: "http://localhost:3002/images/Prints/littlewitch_print_1.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Prints/littlewitch_print_1.jpg",
     more_images: [
-      "http://localhost:3002/images/Prints/littlewitch_print_2.jpg",
-      "http://localhost:3002/images/Prints/littlewitch_print_3.jpg",
+      "https://aasha-server.onrender.com/images/Prints/littlewitch_print_2.jpg",
+      "https://aasha-server.onrender.com/images/Prints/littlewitch_print_3.jpg",
     ],
   },
   {
@@ -210,8 +225,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    image_src: "http://localhost:3002/images/Prints/couple_print_1.jpg",
-    more_images: ["http://localhost:3002/images/Prints/couple_print_2.jpg"],
+    image_src:
+      "https://aasha-server.onrender.com/images/Prints/couple_print_1.jpg",
+    more_images: [
+      "https://aasha-server.onrender.com/images/Prints/couple_print_2.jpg",
+    ],
   },
   {
     id: 25,
@@ -220,10 +238,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    image_src: "http://localhost:3002/images/Prints/coupleingarden_print_1.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Prints/coupleingarden_print_1.jpg",
     more_images: [
-      "http://localhost:3002/images/Prints/coupleingarden_print_2.jpg",
-      "http://localhost:3002/images/Prints/coupleingarden_print_3.jpg",
+      "https://aasha-server.onrender.com/images/Prints/coupleingarden_print_2.jpg",
+      "https://aasha-server.onrender.com/images/Prints/coupleingarden_print_3.jpg",
     ],
   },
   {
@@ -233,7 +252,8 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    image_src: "http://localhost:3002/images/Prints/whitegothgirl_print_1.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Prints/whitegothgirl_print_1.jpg",
   },
   {
     id: 28,
@@ -242,10 +262,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    image_src: "http://localhost:3002/images/Prints/evilboy_print_1.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Prints/evilboy_print_1.jpg",
     more_images: [
-      "http://localhost:3002/images/Prints/evilboy_print_2.jpg",
-      "http://localhost:3002/images/Prints/evilboy_print_3.jpg",
+      "https://aasha-server.onrender.com/images/Prints/evilboy_print_2.jpg",
+      "https://aasha-server.onrender.com/images/Prints/evilboy_print_3.jpg",
     ],
   },
   {
@@ -255,10 +276,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    image_src: "http://localhost:3002/images/Prints/redheadgirl_print_1.jpg",
+    image_src:
+      "https://aasha-server.onrender.com/images/Prints/redheadgirl_print_1.jpg",
     more_images: [
-      "http://localhost:3002/images/Prints/redheadgirl_print_2.jpg",
-      "http://localhost:3002/images/Prints/redheadgirl_print_3.jpg",
+      "https://aasha-server.onrender.com/images/Prints/redheadgirl_print_2.jpg",
+      "https://aasha-server.onrender.com/images/Prints/redheadgirl_print_3.jpg",
     ],
   },
 ];
