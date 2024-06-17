@@ -1,5 +1,40 @@
 const size = ["LARGE", "SMALL"];
 const prize = [15, 11];
+const ProductDescription = [
+  {
+    category: "prints",
+    description: [
+      "Printed on satin-textured light card stock",
+      "Shipped using triangular mailing tubes",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
+  },
+  {
+    category: "books",
+    description: [
+      "Notebook with hardcover for pencils, liners and markers",
+      "32 sheets, 150 g/cm²",
+      "One size only: 13x21 cm",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
+  },
+  {
+    category: "pins",
+    description: [
+      "Metal pin with glossy surface",
+      "Brooch pin on the back ",
+      "One size only: 4,5cm",
+    ],
+  },
+  {
+    category: "stickers",
+    description: [
+      "Vinyl sticker, kiss cut is optional",
+      "Waterproof ",
+      "One size only: 7x5cm",
+    ],
+  },
+];
 
 const Products = [
   {
@@ -304,42 +339,6 @@ const Products = [
     more_images: [
       "https://aasha-server.onrender.com/images/Prints/redheadgirl_print_2.jpg",
       "https://aasha-server.onrender.com/images/Prints/redheadgirl_print_3.jpg",
-    ],
-  },
-];
-
-const ProductDescription = [
-  {
-    category: "prints",
-    description: [
-      "Printed on satin-textured light card stock",
-      "Shipped using triangular mailing tubes",
-      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
-    ],
-  },
-  {
-    category: "books",
-    description: [
-      "Notebook with hardcover for pencils, liners and markers",
-      "32 sheets, 150 g/cm²",
-      "One size only: 13x21 cm",
-      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
-    ],
-  },
-  {
-    category: "pins",
-    description: [
-      "Metal pin with glossy surface",
-      "Brooch pin on the back ",
-      "One size only: 4,5cm",
-    ],
-  },
-  {
-    category: "stickers",
-    description: [
-      "Vinyl sticker, kiss cut is optional",
-      "Waterproof ",
-      "One size only: 7x5cm",
     ],
   },
 ];
