@@ -1,40 +1,5 @@
 const size = ["LARGE", "SMALL"];
 const prize = [15, 11];
-const ProductDescription = [
-  {
-    category: "prints",
-    description: [
-      "Printed on satin-textured light card stock",
-      "Shipped using triangular mailing tubes",
-      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
-    ],
-  },
-  {
-    category: "books",
-    description: [
-      "Notebook with hardcover for pencils, liners and markers",
-      "32 sheets, 150 g/cm²",
-      "One size only: 13x21 cm",
-      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
-    ],
-  },
-  {
-    category: "pins",
-    description: [
-      "Metal pin with glossy surface",
-      "Brooch pin on the back ",
-      "One size only: 4,5cm",
-    ],
-  },
-  {
-    category: "stickers",
-    description: [
-      "Vinyl sticker, kiss cut is optional",
-      "Waterproof ",
-      "One size only: 7x5cm",
-    ],
-  },
-];
 
 const Products = [
   {
@@ -43,7 +8,11 @@ const Products = [
     fandom: "Bungo Stray Dogs",
     category: "pins",
     price: 8,
-    description: ProductDescription,
+    description: [
+      "Metal pin with glossy surface",
+      "Brooch pin on the back ",
+      "One size only: 4,5cm",
+    ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_1.jpg",
   },
   {
@@ -52,7 +21,11 @@ const Products = [
     fandom: "Bungo Stray Dogs",
     category: "pins",
     price: 8,
-    description: ProductDescription,
+    description: [
+      "Metal pin with glossy surface",
+      "Brooch pin on the back ",
+      "One size only: 4,5cm",
+    ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_2.jpg",
   },
   {
@@ -61,7 +34,11 @@ const Products = [
     fandom: "Love Live! School Idol Project",
     category: "pins",
     price: 8,
-    description: ProductDescription,
+    description: [
+      "Metal pin with glossy surface",
+      "Brooch pin on the back ",
+      "One size only: 4,5cm",
+    ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_3.jpg",
   },
   {
@@ -70,7 +47,11 @@ const Products = [
     fandom: "Bungo Stray Dogs",
     category: "pins",
     price: 8,
-    description: ProductDescription,
+    description: [
+      "Metal pin with glossy surface",
+      "Brooch pin on the back ",
+      "One size only: 4,5cm",
+    ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_4.jpg",
   },
   {
@@ -79,7 +60,11 @@ const Products = [
     fandom: "Honkai: Star Rail",
     category: "stickers",
     price: 4,
-    description: ProductDescription,
+    description: [
+      "Vinyl sticker, kiss cut is optional",
+      "Waterproof ",
+      "One size only: 7x5cm",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Stickers/purleye_girl.jpg",
     more_images: [
@@ -92,7 +77,11 @@ const Products = [
     fandom: "Your Turn To Die",
     category: "stickers",
     price: 4,
-    description: ProductDescription,
+    description: [
+      "Vinyl sticker, kiss cut is optional",
+      "Waterproof ",
+      "One size only: 7x5cm",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Stickers/greenhead_boy_sticker.jpg",
     more_images: [
@@ -105,7 +94,11 @@ const Products = [
     fandom: "Genshin Impact",
     category: "stickers",
     price: 4,
-    description: ProductDescription,
+    description: [
+      "Vinyl sticker, kiss cut is optional",
+      "Waterproof ",
+      "One size only: 7x5cm",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Stickers/whitehead_girl_sticker.jpg",
     more_images: [
@@ -118,7 +111,11 @@ const Products = [
     fandom: "Bungo Stray Dogs",
     category: "stickers",
     price: 4,
-    description: ProductDescription,
+    description: [
+      "Vinyl sticker, kiss cut is optional",
+      "Waterproof ",
+      "One size only: 7x5cm",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Stickers/pinkhead_girl_sitcker.jpg",
     more_images: [
@@ -131,7 +128,11 @@ const Products = [
     fandom: "Honkai: Star Rail",
     category: "stickers",
     price: 4,
-    description: ProductDescription,
+    description: [
+      "Vinyl sticker, kiss cut is optional",
+      "Waterproof ",
+      "One size only: 7x5cm",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Stickers/fingerboy_sticker.jpg",
     more_images: [
@@ -144,7 +145,12 @@ const Products = [
     fandom: "Bungo Stray Dogs",
     category: "books",
     price: 45,
-    description: ProductDescription,
+    description: [
+      "Notebook with hardcover for pencils, liners and markers",
+      "32 sheets, 150 g/cm²",
+      "One size only: 13x21 cm",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Books/anime_book_1.jpg",
     more_images: [
@@ -158,7 +164,12 @@ const Products = [
     fandom: "Bungo Stray Dogs",
     category: "books",
     price: 45,
-    description: ProductDescription,
+    description: [
+      "Notebook with hardcover for pencils, liners and markers",
+      "32 sheets, 150 g/cm²",
+      "One size only: 13x21 cm",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Books/anime_book_2.jpg",
     more_images: [
@@ -172,7 +183,12 @@ const Products = [
     fandom: "Honkai: Star Rail",
     category: "books",
     price: 45,
-    description: ProductDescription,
+    description: [
+      "Notebook with hardcover for pencils, liners and markers",
+      "32 sheets, 150 g/cm²",
+      "One size only: 13x21 cm",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Books/anime_book_2.jpg",
     more_images: [
@@ -186,7 +202,12 @@ const Products = [
     fandom: "Honkai: Star Rail",
     category: "books",
     price: 45,
-    description: ProductDescription,
+    description: [
+      "Notebook with hardcover for pencils, liners and markers",
+      "32 sheets, 150 g/cm²",
+      "One size only: 13x21 cm",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Books/anime_book_4.jpg",
     more_images: [
@@ -201,7 +222,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    description: ProductDescription,
+    description: [
+      "Printed on satin-textured light card stock",
+      "Shipped using triangular mailing tubes",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/cardgirl_print_1.jpg",
     more_images: [
@@ -217,7 +242,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    description: ProductDescription,
+    description: [
+      "Printed on satin-textured light card stock",
+      "Shipped using triangular mailing tubes",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/pinkheadgirl_print_1.jpg",
     more_images: [
@@ -233,7 +262,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    description: ProductDescription,
+    description: [
+      "Printed on satin-textured light card stock",
+      "Shipped using triangular mailing tubes",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/demonboy_print_1.jpg",
     more_images: [
@@ -248,7 +281,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    description: ProductDescription,
+    description: [
+      "Printed on satin-textured light card stock",
+      "Shipped using triangular mailing tubes",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/singirl_print_1.jpg",
     more_images: [
@@ -263,7 +300,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    description: ProductDescription,
+    description: [
+      "Printed on satin-textured light card stock",
+      "Shipped using triangular mailing tubes",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/littlewitch_print_1.jpg",
     more_images: [
@@ -278,7 +319,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    description: ProductDescription,
+    description: [
+      "Printed on satin-textured light card stock",
+      "Shipped using triangular mailing tubes",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/couple_print_1.jpg",
     more_images: [
@@ -292,7 +337,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    description: ProductDescription,
+    description: [
+      "Printed on satin-textured light card stock",
+      "Shipped using triangular mailing tubes",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/coupleingarden_print_1.jpg",
     more_images: [
@@ -307,7 +356,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    description: ProductDescription,
+    description: [
+      "Printed on satin-textured light card stock",
+      "Shipped using triangular mailing tubes",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/whitegothgirl_print_1.jpg",
   },
@@ -318,7 +371,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    description: ProductDescription,
+    description: [
+      "Printed on satin-textured light card stock",
+      "Shipped using triangular mailing tubes",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/evilboy_print_1.jpg",
     more_images: [
@@ -333,7 +390,11 @@ const Products = [
     category: "prints",
     size: size,
     price: prize,
-    description: ProductDescription,
+    description: [
+      "Printed on satin-textured light card stock",
+      "Shipped using triangular mailing tubes",
+      "Orders with both large prints and books will be shipped in separate parcels due to different sizes",
+    ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/redheadgirl_print_1.jpg",
     more_images: [
