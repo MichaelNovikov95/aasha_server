@@ -22,8 +22,8 @@ export const paymentHandler = async (req, res) => {
           quantity: item.count,
         };
       }),
-      success_url: `${process.env.CLIENT_URL}/success`,
-      cancel_url: `${process.env.CLIENT_URL}/cancel`,
+      success_url: `${process.env.SERVER_URL}/public/success.html`,
+      cancel_url: `${process.env.SERVER_URL}/public/cancel.html`,
     });
     res.send({ url: session.url });
   } catch (error) {
