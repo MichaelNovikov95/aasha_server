@@ -18,6 +18,12 @@ app.use(express.json());
 app.use("/", loginRouter);
 app.use("/shop", shopRouter);
 app.use("/shop/cart", chargeRouter);
+app.use("/success", (req, res) => {
+  res.redirect(303, `${process.env.SERVER_URL}success`);
+});
+app.use("/cancel", (req, res) => {
+  res.redirect(303, `${process.env.SERVER_URL}cancel`);
+});
 
 const main = async () => {
   try {
