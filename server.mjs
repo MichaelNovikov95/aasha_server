@@ -18,13 +18,6 @@ app.use(express.json());
 app.use("/", loginRouter);
 app.use("/shop", shopRouter);
 app.use("/shop/cart", chargeRouter);
-app.use("/success", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/success.html"));
-  setTimeout(() => {
-    res.redirect(303, process.env.CLIENT_URL);
-  }, 2500);
-});
-app.use("/cancel", (req, res) => {});
 
 const main = async () => {
   try {
