@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 3002;
 const app = express();
 
 app.use(express.static(process.env.CLIENT_URL));
-app.use("/images", express.static("images"));
 app.use(cors());
+app.use("/images", express.static("images"));
 app.use(express.json());
 app.use("/", loginRouter);
 app.use("/shop", shopRouter);
@@ -26,6 +26,7 @@ const main = async () => {
       console.log(`${PORT}`);
     });
   } catch (error) {
+    console.log(error);
     console.log(error.message);
   }
 };
