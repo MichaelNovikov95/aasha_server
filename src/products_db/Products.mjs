@@ -14,8 +14,8 @@ const Products = [
       "One size only: 4,5cm",
     ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_1.jpg",
-    // small_image_src:
-    //   "https://aasha-server.onrender.com/images/Pins/pin_1_small.jpg",
+    small_image_src:
+      "https://aasha-server.onrender.com/images/Pins/pin_1_small.jpg",
   },
   {
     id: 2,
@@ -29,8 +29,8 @@ const Products = [
       "One size only: 4,5cm",
     ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_2.jpg",
-    // small_image_src:
-    //   "https://aasha-server.onrender.com/images/Pins/pin_2_small.jpg",
+    small_image_src:
+      "https://aasha-server.onrender.com/images/Pins/pin_2_small.jpg",
   },
   {
     id: 3,
@@ -44,8 +44,8 @@ const Products = [
       "One size only: 4,5cm",
     ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_3.jpg",
-    // small_image_src:
-    //   "https://aasha-server.onrender.com/images/Pins/pin_3_small.jpg",
+    small_image_src:
+      "https://aasha-server.onrender.com/images/Pins/pin_3_small.jpg",
   },
   {
     id: 4,
@@ -59,8 +59,8 @@ const Products = [
       "One size only: 4,5cm",
     ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_4.jpg",
-    // small_image_src:
-    //   "https://aasha-server.onrender.com/images/Pins/pin_4_small.jpg",
+    small_image_src:
+      "https://aasha-server.onrender.com/images/Pins/pin_4_small.jpg",
   },
   {
     id: 5,
@@ -77,9 +77,9 @@ const Products = [
       "https://aasha-server.onrender.com/images/Stickers/purleye_girl.jpg",
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/purleye_girl_small.jpg",
-    more_images: [
-      "https://aasha-server.onrender.com/images/Stickers/pinkeye_girl_2_small.jpg",
-    ],
+    // more_images: [
+    //   "https://aasha-server.onrender.com/images/Stickers/pinkeye_girl_2_small.jpg",
+    // ],
   },
   {
     id: 6,
@@ -94,12 +94,11 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Stickers/greenhead_boy_sticker.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/greenhead_boy_sticker_small.jpg",
-    more_images: [
-      "https://aasha-server.onrender.com/images/Stickers/greenhead_boy_sitcker_2_small.jpg",
-    ],
+    // more_images: [
+    //   "https://aasha-server.onrender.com/images/Stickers/greenhead_boy_sitcker_2_small.jpg",
+    // ],
   },
   {
     id: 7,
@@ -114,12 +113,11 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Stickers/whitehead_girl_sticker.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/whitehead_girl_sticker_small.jpg",
-    more_images: [
-      "https://aasha-server.onrender.com/images/Stickers/whitehead_girl_sticker2_small.jpg",
-    ],
+    // more_images: [
+    //   "https://aasha-server.onrender.com/images/Stickers/whitehead_girl_sticker2_small.jpg",
+    // ],
   },
   {
     id: 8,
@@ -134,12 +132,11 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Stickers/pinkhead_girl_sitcker.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/pinkhead_girl_sitcker_small.jpg",
-    more_images: [
-      "https://aasha-server.onrender.com/images/Stickers/pinkhead_girl_2_small.jpg",
-    ],
+    // more_images: [
+    //   "https://aasha-server.onrender.com/images/Stickers/pinkhead_girl_2_small.jpg",
+    // ],
   },
   {
     id: 9,
@@ -156,9 +153,9 @@ const Products = [
       "https://aasha-server.onrender.com/images/Stickers/fingerboy_sticker.jpg",
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/fingerboy_sticker_small.jpg",
-    more_images: [
-      "https://aasha-server.onrender.com/images/Stickers/fingerboy_sticker_2_small.jpg",
-    ],
+    // more_images: [
+    //   "https://aasha-server.onrender.com/images/Stickers/fingerboy_sticker_2_small.jpg",
+    // ],
   },
   {
     id: 14,
