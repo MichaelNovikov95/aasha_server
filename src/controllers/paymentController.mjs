@@ -22,8 +22,8 @@ export const paymentHandler = async (req, res) => {
           quantity: item.count,
         };
       }),
-      success_url: "https://aashashop.netlify.app/success",
-      cancel_url: "https://aashashop.netlify.app/cancel",
+      success_url: "https://aasha-server.onrender.com/success",
+      cancel_url: "https://aasha-server.onrender.com/cancel",
     });
     res.send({ url: session.url });
   } catch (error) {
