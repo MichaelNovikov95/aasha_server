@@ -154,7 +154,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Stickers/fingerboy_sticker.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/fingerboy_sticker_small.jpg",
     more_images: [
@@ -175,7 +174,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Books/anime_book_1.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/anime_book_1_small.jpg",
     more_images: [
@@ -197,7 +195,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Books/anime_book_2.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/anime_book_2_small.jpg",
     more_images: [
@@ -219,7 +216,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Books/anime_book_2.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/anime_book_2_small.jpg",
     more_images: [
@@ -241,7 +237,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Books/anime_book_4.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/anime_book_4_small.jpg",
     more_images: [
@@ -263,7 +258,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/cardgirl_print_1.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/cardgirl_print_1_small.jpg",
     more_images: [
@@ -286,7 +280,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/pinkheadgirl_print_1.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/pinkheadgirl_print_1_small.jpg",
     more_images: [
@@ -309,7 +302,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/demonboy_print_1.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/demonboy_print_1_small.jpg",
     more_images: [
@@ -331,7 +323,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/singirl_print_1.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/singirl_print_1_small.jpg",
     more_images: [
@@ -353,7 +344,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/littlewitch_print_1.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/littlewitch_print_1_small.jpg",
     more_images: [
@@ -375,7 +365,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/couple_print_1.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/couple_print_1_small.jpg",
     more_images: [
@@ -396,7 +385,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/coupleingarden_print_1.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/coupleingarden_print_1_small.jpg",
     more_images: [
@@ -418,7 +406,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/whitegothgirl_print_1.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/whitegothgirl_print_1_small.jpg",
   },
@@ -436,7 +423,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/evilboy_print_1.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/evilboy_print_1_small.jpg",
     more_images: [
@@ -458,7 +444,6 @@ const Products = [
     ],
     image_src:
       "https://aasha-server.onrender.com/images/Prints/redheadgirl_print_1.jpg",
-
     small_image_src:
       "https://aasha-server.onrender.com/images/Pins/redheadgirl_print_1_small.jpg",
     more_images: [
