@@ -14,8 +14,8 @@ const Products = [
       "One size only: 4,5cm",
     ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_1.jpg",
-    small_image_src:
-      "https://aasha-server.onrender.com/images/Pins/pin_1_small.jpg",
+    // small_image_src:
+    //   "https://aasha-server.onrender.com/images/Pins/pin_1_small.jpg",
   },
   {
     id: 2,
@@ -29,8 +29,8 @@ const Products = [
       "One size only: 4,5cm",
     ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_2.jpg",
-    small_image_src:
-      "https://aasha-server.onrender.com/images/Pins/pin_2_small.jpg",
+    // small_image_src:
+    //   "https://aasha-server.onrender.com/images/Pins/pin_2_small.jpg",
   },
   {
     id: 3,
@@ -44,8 +44,8 @@ const Products = [
       "One size only: 4,5cm",
     ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_3.jpg",
-    small_image_src:
-      "https://aasha-server.onrender.com/images/Pins/pin_3_small.jpg",
+    // small_image_src:
+    //   "https://aasha-server.onrender.com/images/Pins/pin_3_small.jpg",
   },
   {
     id: 4,
@@ -59,8 +59,8 @@ const Products = [
       "One size only: 4,5cm",
     ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_4.jpg",
-    small_image_src:
-      "https://aasha-server.onrender.com/images/Pins/pin_4_small.jpg",
+    // small_image_src:
+    //   "https://aasha-server.onrender.com/images/Pins/pin_4_small.jpg",
   },
   {
     id: 5,
