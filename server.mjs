@@ -20,13 +20,13 @@ app.use("/shop", shopRouter);
 app.use("/shop/cart", chargeRouter);
 app.get("/success", (req, res) => {
   setTimeout(() => {
-    res.redirect(303, `${CLIENT_URL}/success`);
-  }, 2000);
+    res.redirect(303, `${process.env.CLIENT_URL}/success`);
+  }, 0);
 });
 app.get("/cancel", (req, res) => {
   setTimeout(() => {
-    res.redirect(303, `${CLIENT_URL}/cancel`);
-  }, 2000);
+    res.redirect(303, `${process.env.CLIENT_URL}/cancel`);
+  }, 0);
 });
 
 const main = async () => {
