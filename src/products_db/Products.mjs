@@ -14,6 +14,8 @@ const Products = [
       "One size only: 4,5cm",
     ],
     image_src: "https://aasha-server.onrender.com/images/Pins/pin_1.jpg",
+    small_image_src:
+      "https://aasha-server.onrender.com/images/Pins/pin_1_small.jpg",
   },
   {
     id: 2,
