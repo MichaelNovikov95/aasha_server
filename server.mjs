@@ -18,16 +18,16 @@ app.use(express.json());
 app.use("/", loginRouter);
 app.use("/shop", shopRouter);
 app.use("/shop/cart", chargeRouter);
-app.get("/success", (req, res) => {
-  setTimeout(() => {
-    res.redirect(303, `${process.env.CLIENT_URL}/success`);
-  }, 0);
-});
-app.get("/cancel", (req, res) => {
-  setTimeout(() => {
-    res.redirect(303, `${process.env.CLIENT_URL}/cancel`);
-  }, 0);
-});
+// app.get("/success", (req, res) => {
+//   setTimeout(() => {
+//     res.redirect(303, "https://aashashop.netlify.app/success");
+//   }, 0);
+// });
+// app.get("/cancel", (req, res) => {
+//   setTimeout(() => {
+//     res.redirect(303, "https://aashashop.netlify.app/cancel");
+//   }, 0);
+// });
 
 const main = async () => {
   try {
