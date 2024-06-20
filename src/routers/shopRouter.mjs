@@ -9,7 +9,6 @@ import {
   getBookById,
   getStickerById,
   getPrintById,
-  getCartView,
 } from "../controllers/shopController.mjs";
 
 const router = Router();
