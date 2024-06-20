@@ -46,7 +46,7 @@ export const signIn = async (req, res) => {
     if (!validPassword)
       return res.status(400).send({ message: "Bad credentials" });
     const token = generateAccessToken(user._id);
-    return res.json({ token });
+    return res.json({ token, email });
   } catch (error) {
     console.log(error.message);
     res.status(400).send({ message: "Sign in error" });
