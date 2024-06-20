@@ -60,7 +60,3 @@ export const getPrintById = (req, res) => {
   const onePrint = allPrints.find((print) => print.id === parsedId);
   return res.send(onePrint);
 };
-
-export const getCartView = (req, res) => {
-  res.json({ message: "You have access to cart!" });
-};
